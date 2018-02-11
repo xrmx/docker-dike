@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="25dd", ATTRS{idProduct}=="23b4", RUN+="/usr/local/sbin/cns_usb_mode.sh", MODE="0666"
