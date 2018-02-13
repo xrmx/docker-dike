@@ -30,8 +30,8 @@ Then you have to install the udev rules for your cns usb device on the host:
 
 ```
 sudo cp 99-cns_udev.rules /etc/udev/rules.d/
-sudo cp cns_usb_mode.sh /usr/local/bin
-sudo chmod 755 /usr/local/bin/cns_usb_mode.sh
+sudo cp cns_usb_mode.sh /usr/local/sbin
+sudo chmod 755 /usr/local/sbin/cns_usb_mode.sh
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
