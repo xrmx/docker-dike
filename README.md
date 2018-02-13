@@ -1,6 +1,6 @@
-# Dike Docker images for Debian based distributions
+# Dike Docker images
 
-If you run a modern Debian based linux distribution there's good chances that the
+If you are not running Ubuntu Xenial (16.04) on your machine there's good chances that the
 debian package from Infocert won't work out of the box. And their packaging-fu
 does not look that sharp. So better run the thing under a Docker container.
 
